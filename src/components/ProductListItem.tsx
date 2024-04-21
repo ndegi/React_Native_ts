@@ -33,10 +33,12 @@ const styles = StyleSheet.create({
     flex: 1,
     margin: 10,
     maxWidth: "50%",
+    overflow: "hidden",
   },
   image: {
     width: "100%",
     aspectRatio: 1,
+    alignSelf: "center",
   },
   title: {
     fontSize: 18,
